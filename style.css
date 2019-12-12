@@ -1,0 +1,28 @@
+body {
+  color: white;
+  background: black;
+  margin: 0px;
+}
+
+header {
+  text-align: center;
+  background-image: url("sunset.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 750px;
+  display: grid;
+  grid-template-rows: ;
+  grid-template-columns: ;
+}
+
+header h1 {
+}
+
+main {
+  background: #bf4900;
+}
+
+footer {
+  background: #bf4900;
+}
