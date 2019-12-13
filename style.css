@@ -2,27 +2,33 @@ body {
   color: white;
   background: black;
   margin: 0px;
+  font-family: "Judson", serif;
 }
 
 header {
   text-align: center;
-  background-image: url("sunset.jpg");
+  text-shadow: -1px 1px 0 #000,
+    1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000;
+  background-image: url("sunset2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  min-height: 750px;
+  min-height: 550px;
   display: grid;
   grid-template-rows: ;
   grid-template-columns: ;
 }
 
 header h1 {
+
 }
 
 main {
-  background: #bf4900;
+  background: #9e3700;
 }
 
 footer {
-  background: #bf4900;
+  background: #9e3700;
 }
