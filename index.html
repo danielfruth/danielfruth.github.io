@@ -110,12 +110,35 @@
             <h2 class="section-heading text-uppercase">Portfolio</h2>
             <h3 class="section-subheading text-muted">
               Take a look at some of my past, built-from-scratch, projects.
-              Click a humbnail to se a brief description, or click the title to
+              Click a humbnail to see a brief description, or click the title to
               be taken to the deployed version.
             </h3>
           </div>
         </div>
         <div class="row">
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a
+              class="portfolio-link"
+              data-toggle="modal"
+              href="#portfolioModal4"
+            >
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img
+                class="img-fluid"
+                src="img/portfolio/04-thumbnail.jpg"
+                alt=""
+              />
+            </a>
+            <div class="portfolio-caption">
+              <a href="https://total-garage-frontend.herokuapp.com/"><h4>Total Garage</h4>
+              <p class="text-muted">Repair Reference<br>Technologies Used:<br>HTML, CSS, React Javascript using hooks, Python, React Bootstrap, Postgres</p></a>
+              
+            </div>
+          </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
             <a
               class="portfolio-link"
@@ -135,15 +158,14 @@
             </a>
             <div class="portfolio-caption">
               <a href="https://danielfruth.github.io/simon-game/"><h4>Simple Simon</h4>
-              <p class="text-muted">Game</p></a>
-              
+              <p class="text-muted">Game<br>Technologies Used:<br>HTML, CSS, Javascript</p></a>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
             <a
-              class="portfolio-link"
-              data-toggle="modal"
-              href="#portfolioModal2"
+            class="portfolio-link"
+            data-toggle="modal"
+            href="#portfolioModal2"
             >
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
@@ -158,7 +180,7 @@
             </a>
             <div class="portfolio-caption">
               <a href="http://pixabay-refined-search.herokuapp.com/"><h4>Pixabay Refined Search</h4>
-              <p class="text-muted">Image Search</p></a>
+              <p class="text-muted">Image Search<br>Technologies Used:<br>HTML, CSS, React Javascript using hooks, Pixabay API</p></a>
               
             </div>
           </div>
@@ -182,30 +204,7 @@
             <div class="portfolio-caption">
               <a href="https://book-bear.herokuapp.com/books">
               <h4>Book Bear</h4>
-              <p class="text-muted">Utility</p></a>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a
-              class="portfolio-link"
-              data-toggle="modal"
-              href="#portfolioModal4"
-            >
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img
-                class="img-fluid"
-                src="img/portfolio/04-thumbnail.jpg"
-                alt=""
-              />
-            </a>
-            <div class="portfolio-caption">
-              <a href="https://total-garage-frontend.herokuapp.com/"><h4>Total Garage</h4>
-              <p class="text-muted">Repair Reference</p></a>
-              
+              <p class="text-muted">Utility<br>Technologies Used:<br>HTML, CSS, React Javascript using hooks, MongoDB</p></a>
             </div>
           </div>
         </div>
@@ -375,7 +374,7 @@
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="" />
               <h4>Daniel Fruth</h4>
-              <p class="text-muted">Full Stack Web Devloper <br /><a class="resume" href="https://docs.google.com/document/d/1NXzN8FNzlIak6MAgFXzPqY92VHRUj8G8_82e-k0aTMA/edit?usp=sharing">Link to Resumé</a><br /><br />Email: danielcfruth@gmail.com <br />Phone: (480) 797-9213 <br />Mesa, AZ</p>
+              <p class="text-muted">Full Stack Web Developer <br /><a class="resume" href="https://docs.google.com/document/d/1NXzN8FNzlIak6MAgFXzPqY92VHRUj8G8_82e-k0aTMA/edit?usp=sharing">Link to Resumé</a><br /><br />Email: danielcfruth@gmail.com <br />Phone: (480) 797-9213 <br />Mesa, AZ</p>
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
                   <a href="https://www.facebook.com/dan.fruth">
@@ -441,6 +440,7 @@
                     lit up. Tracks all-time high score, and currrent high score
                     saved locally to the IP.
                   </p>
+                  <a href="https://github.com/danielfruth/simon-game"><h5>Link To GitHub</h5></a>
                   <ul class="list-inline">
                     <li>Date: January 2020</li>
                     <li>Client: General Assembly</li>
@@ -497,6 +497,9 @@
                     results. The images are taken from the official pixabay API,
                     with granted permission.
                   </p>
+                  <a href="https://github.com/danielfruth/pixabay-refined-search">
+                    <h5>Link To GitHub</h5>
+                  </a>
                   <ul class="list-inline">
                     <li>Date: January 2020</li>
                     <li>Client: General Assembly</li>
@@ -556,6 +559,12 @@
                     will then all be displayed on the landing page, accessed
                     using a custom built and seperately deployed API.
                   </p>
+                  <a href="https://github.com/aafmisra/project3-frontend">
+                    <h5>Link To GitHub</h5>
+                  </a>
+                  <a href="https://github.com/jpettett/book-bear-api">
+                    <h5>Link To GitHub API</h5>
+                  </a>
                   <ul class="list-inline">
                     <li>Date: February 2020</li>
                     <li>Client: General Assembly</li>
@@ -617,6 +626,12 @@
                     24 hours after login. Seperately deployed backend contains
                     user info as well as all repair entries.
                   </p>
+                  <a href="https://github.com/danielfruth/total_garage_frontend">
+                    <h5>Link To GitHub</h5>
+                  </a>
+                  <a href="https://github.com/cwalbanese/total_garage_backend">
+                    <h5>Link To GitHub API</h5>
+                  </a>
                   <ul class="list-inline">
                     <li>Date: March 2020</li>
                     <li>Client: General Assembly</li>
